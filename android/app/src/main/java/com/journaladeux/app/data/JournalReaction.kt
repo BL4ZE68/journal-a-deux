@@ -4,15 +4,14 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class JournalEntry(
+data class JournalReaction(
     val id: String? = null,
+    @SerialName("entry_id")
+    val entryId: String,
     @SerialName("author_key")
     val authorKey: String,
-    val content: String? = null,
-    @SerialName("photo_url")
-    val photoUrl: String? = null,
-    val mood: String? = null,
+    @SerialName("reaction_type")
+    val reactionType: String,
     @SerialName("created_at")
-    val createdAt: String? = null,
-    val reactions: List<JournalReaction> = emptyList()
+    val createdAt: String? = null
 )

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBDAUAMIGUMQswCQYDVQQGEwJVUzETMBEG
+            C1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNTW91bnRhaW4gVmlldzEQMA4GA1UECgwHR29vZ2xlMTAR
+            BgNVBAsMCkFuZHJvaWQxPz99BgNVBAMMMkFuZHJvaWQgRGVidWcgU2lnbmluZyBDZXJ0aWZpY2F0ZSAo
+            QU5EUk9JRF9ERUJVR19LRVkpMB4XDTE1MDExNTE4MTkwOFoXDTQ1MDExNTE4MTkwOFowgZQxCzAJBgNV
+            BAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1Nb3VudGFpbiBWaWV3MRAwDgYDVQQK
+            DAdHb29nbGUxETAPBgNVBAsMCkFuZHJvaWQxPz99BgNVBAMMMkFuZHJvaWQgRGVidWcgU2lnbmluZyBD
+            ZXJ0aWZpY2F0ZSAoQU5EUk9JRF9ERUJVR19LRVkpMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+            AQEArV158x9y7tZ6Z22S4O2H/W617T1uR8H/T7Y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3wIDAQABoxowGDAJBgNVHRMEAjAAMAsGA1UdDwQEAwIHgDANBgkqhkiG9w0BAQwFAAOCAQEArV15
+            8x9y7tZ6Z22S4O2H/W617T1uR8H/T7Y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBDAUAMIGUMQswCQYDVQQGEwJVUzETMBEG
+            C1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNTW91bnRhaW4gVmlldzEQMA4GA1UECgwHR29vZ2xlMTAR
+            BgNVBAsMCkFuZHJvaWQxPz99BgNVBAMMMkFuZHJvaWQgRGVidWcgU2lnbmluZyBDZXJ0aWZpY2F0ZSAo
+            QU5EUk9JRF9ERUJVR19LRVkpMB4XDTE1MDExNTE4MTkwOFoXDTQ1MDExNTE4MTkwOFowgZQxCzAJBgNV
+            BAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1Nb3VudGFpbiBWaWV3MRAwDgYDVQQK
+            DAdHb29nbGUxETAPBgNVBAsMCkFuZHJvaWQxPz99BgNVBAMMMkFuZHJvaWQgRGVidWcgU2lnbmluZyBD
+            ZXJ0aWZpY2F0ZSAoQU5EUk9JRF9ERUJVR19LRVkpMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+            AQEArV158x9y7tZ6Z22S4O2H/W617T1uR8H/T7Y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3wIDAQABoxowGDAJBgNVHRMEAjAAMAsGA1UdDwQEAwIHgDANBgkqhkiG9w0BAQwFAAOCAQEArV15
+            8x9y7tZ6Z22S4O2H/W617T1uR8H/T7Y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3y3
+            y3y3
+        </item>
+    </string-array>
+</resources>
