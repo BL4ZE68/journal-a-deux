@@ -22,7 +22,7 @@ export default function InstallPrompt() {
 
   return (
     <div className="fixed bottom-0 left-0 right-0 mx-auto max-w-xl bg-paper rounded-t-xl p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] polaroid flex items-center gap-3 z-50 sm:bottom-4 sm:left-4 sm:right-4 sm:rounded-xl sm:pb-3">
-      <span className="text-2xl">📖</span>
+      <img src="/icon-journal-heart.png" alt="" className="w-8 h-8 object-contain" />
       <p className="text-ink text-sm flex-1">Installer le journal sur cet écran d'accueil ?</p>
       <button
         onClick={() => setDismissed(true)}

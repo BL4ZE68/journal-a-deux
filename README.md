@@ -51,6 +51,25 @@ npm install
 npm run cap:sync
 ```
 
+### Déverrouillage par empreinte
+
+Le verrouillage local par code est conservé. Après une première ouverture réussie
+avec le code, l'application propose le déverrouillage biométrique Android si une
+biométrie forte est disponible et configurée sur l'appareil. Le code reste le
+repli si l'empreinte échoue ou si l'appareil ne possède pas de capteur compatible.
+
+Après l'installation d'une nouvelle copie du projet, installe et synchronise le
+plugin biométrique :
+
+```powershell
+npm install
+npx cap sync android
+```
+
+Sur Android, active au préalable une empreinte dans **Réglages > Sécurité**.
+L'empreinte n'est jamais enregistrée par l'application : Android affiche sa
+propre boîte de dialogue et ne transmet qu'un résultat succès/échec.
+
 Pour ouvrir l'application dans Android Studio ou la lancer sur un émulateur
 ou un appareil USB :
 

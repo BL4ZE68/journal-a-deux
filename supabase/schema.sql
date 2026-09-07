@@ -7,7 +7,10 @@ create table if not exists public.entries (
   author_key text not null check (author_key in ('a', 'b')),
   content text,
   photo_url text,
+  photo_urls jsonb default '[]'::jsonb,
   mood text,
+  reactions_a int default 0,
+  reactions_b int default 0,
   created_at timestamptz not null default now()
 );
 
@@ -24,6 +27,15 @@ create policy "read entries"
 create policy "insert entries"
   on public.entries for insert
   with check (true);
+
+create policy "update entries"
+  on public.entries for update
+  using (true)
+  with check (true);
+
+create policy "delete entries"
+  on public.entries for delete
+  using (true);
 
 -- Bucket de stockage pour les photos
 insert into storage.buckets (id, name, public)

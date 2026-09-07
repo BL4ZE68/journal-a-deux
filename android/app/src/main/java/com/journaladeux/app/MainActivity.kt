@@ -5,7 +5,9 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.*
@@ -14,7 +16,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Collections
 import androidx.compose.material.icons.filled.EditNote
 import androidx.compose.material3.*
-import androidx.compose.runtime.*
 import com.journaladeux.app.ui.GalleryScreen
 import com.journaladeux.app.ui.GateScreen
 import com.journaladeux.app.ui.JournalScreen
@@ -22,6 +23,7 @@ import com.journaladeux.app.ui.theme.JournalTheme
 
 import android.content.Intent
 import android.net.Uri
+import com.google.firebase.messaging.FirebaseMessaging
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,7 +31,12 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         
         // S'abonner aux notifications pour recevoir les nouveaux messages du partenaire
-        com.google.firebase.messaging.FirebaseMessaging.getInstance().subscribeToTopic("journal_updates")
+        try {
+            FirebaseMessaging.getInstance().subscribeToTopic("journal_updates")
+        } catch (e: Exception) {
+            // Firebase not initialized (missing google-services.json)
+            e.printStackTrace()
+        }
 
         val sharedPref = getPreferences(Context.MODE_PRIVATE)
         val isInitiallyUnlocked = sharedPref.getBoolean("is_unlocked", false)
